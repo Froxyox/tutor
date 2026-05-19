@@ -70,13 +70,13 @@ export default function Mission() {
             </p>
             <div className="mt-8 flex items-center justify-center gap-4">
               <div className="text-center">
-                <div className="font-bold text-gold-400">Jordan Lee</div>
-                <div className="text-xs text-slate-400">Co-Founder, Stuyvesant &apos;26</div>
+                <div className="font-bold text-gold-400">Guanshen Chen</div>
+                <div className="text-xs text-slate-400">Co-Founder, Bronx Science &apos;28</div>
               </div>
               <div className="text-slate-600 text-xl">&amp;</div>
               <div className="text-center">
-                <div className="font-bold text-gold-400">Priya Sharma</div>
-                <div className="text-xs text-slate-400">Co-Founder, Bronx Science &apos;26</div>
+                <div className="font-bold text-gold-400">Jonathan Zhang</div>
+                <div className="text-xs text-slate-400">Co-Founder, Bronx Science &apos;28</div>
               </div>
             </div>
           </div>

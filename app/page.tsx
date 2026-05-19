@@ -23,7 +23,7 @@ const whyUs = [
   {
     icon: '🎓',
     title: 'We Aced It Ourselves',
-    desc: 'Our tutors attend Stuyvesant and Bronx Science — we went through the exact same process and know every trick on the test.',
+    desc: 'Our tutors attend Bronx High School of Science — we went through the exact same process and know every trick on the test.',
   },
   {
     icon: '🎯',
@@ -68,7 +68,7 @@ export default function Home() {
           </h1>
           <p className="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed">
             Expert SHSAT tutoring from students who&apos;ve been in your shoes.
-            We&apos;re a Stuyvesant junior and a Bronx Science junior helping the next generation crack the test.
+            We&apos;re two Bronx Science sophomores who aced the SHSAT, and we&apos;re here to help you do the same.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/apply" className="btn-primary text-base">
@@ -148,7 +148,7 @@ export default function Home() {
               From Test-Takers to Tutors
             </h2>
             <p className="text-slate-600 leading-relaxed mb-6">
-              Jordan Lee (Stuyvesant &apos;26) and Priya Sharma (Bronx Science &apos;26) started EliteSHSAT because they
+              Guanshen Chen and Jonathan Zhang (both Bronx Science &apos;28) started EliteSHSAT because they
               remembered exactly how stressful the SHSAT felt — and how much they wished they&apos;d had someone in their
               corner who truly understood it.
             </p>
@@ -164,15 +164,15 @@ export default function Home() {
               <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center text-5xl shadow-lg mb-3">
                 👨‍🎓
               </div>
-              <div className="font-bold text-navy-900">Jordan Lee</div>
-              <div className="text-xs text-slate-500 font-medium">Stuyvesant &apos;26</div>
+              <div className="font-bold text-navy-900">Guanshen Chen</div>
+              <div className="text-xs text-slate-500 font-medium">Bronx Science &apos;28</div>
             </div>
             <div className="text-center">
               <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center text-5xl shadow-lg mb-3">
-                👩‍🎓
+                👨‍🎓
               </div>
-              <div className="font-bold text-navy-900">Priya Sharma</div>
-              <div className="text-xs text-slate-500 font-medium">Bronx Science &apos;26</div>
+              <div className="font-bold text-navy-900">Jonathan Zhang</div>
+              <div className="text-xs text-slate-500 font-medium">Bronx Science &apos;28</div>
             </div>
           </div>
         </div>

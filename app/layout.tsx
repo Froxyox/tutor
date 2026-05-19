@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Elite SHSAT Prep | NYC Specialized High School Tutoring',
   description:
-    'Expert SHSAT tutoring by Stuyvesant and Bronx Science students. Personalized prep for all 9 NYC specialized high schools. Apply today.',
+    'Expert SHSAT tutoring by Bronx Science students. Personalized prep for all 9 NYC specialized high schools. Apply today.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

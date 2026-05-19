@@ -74,7 +74,7 @@ const faqs = [
         a: 'No contracts, ever. You can stop at any time. That said, we recommend at least 8 weeks of consistent sessions to see substantial score improvement.',
       },
       {
-        q: 'What if I want to switch tutors (from Jordan to Priya or vice versa)?',
+        q: 'What if I want to switch tutors (from Guanshen to Jonathan or vice versa)?',
         a: 'No problem at all. We work as a team and have full visibility into each student\'s progress. If you feel one of our styles is a better fit, just let us know.',
       },
       {

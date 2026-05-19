@@ -35,23 +35,24 @@ export default function About() {
             </div>
             {/* Bio */}
             <div className="flex-1">
-              <h2 className="text-3xl font-black text-navy-900 mb-1">Jordan Lee</h2>
-              <p className="text-gold-600 font-semibold mb-5">Junior · Stuyvesant High School &apos;26</p>
+              <h2 className="text-3xl font-black text-navy-900 mb-1">Guanshen Chen</h2>
+              <p className="text-gold-600 font-semibold mb-5">Sophomore · Bronx High School of Science &apos;28</p>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Growing up in Queens, Jordan knew he wanted to attend Stuyvesant since middle school — but the path wasn&apos;t easy.
-                He failed his first practice test by 50 points and spent the entire summer before 8th grade studying, building his own
-                question bank, and developing the math strategies he now teaches every student.
+                Guanshen grew up in the Bronx and always had a natural love for numbers. When he started prepping for the SHSAT,
+                he threw himself into the math section — building his own problem sets, finding patterns in how questions were
+                written, and developing shortcut strategies that cut solving time in half.
               </p>
               <p className="text-slate-600 leading-relaxed mb-4">
-                When he scored in the top 3% on his official exam and walked through Stuy&apos;s doors in 9th grade, he made a
-                promise to himself: he would help kids who were in his exact position. EliteSHSAT was born out of that promise.
+                When he earned his spot at Bronx Science, he realized those strategies were too valuable to keep to himself.
+                He co-founded EliteSHSAT to give every motivated student access to the same techniques — without the
+                $200/hour price tag.
               </p>
               <p className="text-slate-600 leading-relaxed mb-6">
-                At Stuy, Jordan is a member of the Math Team, participates in the Science Olympiad, and maintains a 4.0 GPA.
-                He plans to study computer science at MIT. Outside school, he&apos;s obsessed with chess and cooking.
+                At Bronx Science, Guanshen is on the Math Team and participates in Science Olympiad.
+                Outside of school he enjoys basketball and competitive programming.
               </p>
               <div className="flex flex-wrap gap-3">
-                {['Math Whiz', 'Chess Player', 'Science Olympiad', 'MIT-Bound'].map((tag) => (
+                {['Math Expert', 'Science Olympiad', 'Math Team', 'Competitive Programmer'].map((tag) => (
                   <span key={tag} className="bg-navy-100 text-navy-800 text-xs font-semibold px-3 py-1 rounded-full">
                     {tag}
                   </span>
@@ -72,7 +73,7 @@ export default function About() {
             {/* Avatar */}
             <div className="flex-shrink-0 text-center">
               <div className="w-48 h-48 rounded-3xl bg-gradient-to-br from-gold-400 to-gold-600 flex items-center justify-center text-8xl shadow-xl mx-auto mb-4">
-                👩‍🎓
+                👨‍🎓
               </div>
               <div className="inline-block bg-navy-800 text-white text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full">
                 Co-Founder
@@ -80,24 +81,24 @@ export default function About() {
             </div>
             {/* Bio */}
             <div className="flex-1">
-              <h2 className="text-3xl font-black text-navy-900 mb-1">Priya Sharma</h2>
-              <p className="text-gold-600 font-semibold mb-5">Junior · Bronx High School of Science &apos;26</p>
+              <h2 className="text-3xl font-black text-navy-900 mb-1">Jonathan Zhang</h2>
+              <p className="text-gold-600 font-semibold mb-5">Sophomore · Bronx High School of Science &apos;28</p>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Priya grew up in the Bronx and always had a love for reading, writing, and biology. When she first heard about
-                the SHSAT, she dove headfirst into ELA prep — and quickly realized that the verbal reasoning section was
-                drastically under-served by most prep resources. So she wrote her own.
+                Jonathan grew up reading everything he could get his hands on. When he started prepping for the SHSAT,
+                he quickly noticed that most students underestimated the ELA section — and that the right reading strategies
+                could unlock massive score gains that other prep programs completely ignored.
               </p>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Her comprehensive ELA workbook — now used with all EliteSHSAT students — covers revising & editing, logical
-                reasoning, and speed-reading techniques that can meaningfully boost scores in 8–12 weeks.
+                He built his own ELA workbook from scratch — covering revising &amp; editing, passage annotation, and logical
+                reasoning — and saw his own ELA score jump dramatically in the final weeks before the test.
+                That workbook is now a core part of every EliteSHSAT student&apos;s prep.
               </p>
               <p className="text-slate-600 leading-relaxed mb-6">
-                At Bronx Science, Priya is editor-in-chief of the school newspaper, a member of the Debate Club, and serves
-                in student government. She plans to pursue biomedical engineering and is passionate about making STEM
-                education equitable across all of New York City.
+                At Bronx Science, Jonathan writes for the school newspaper and is a member of the Debate Club.
+                Outside school he enjoys chess and creative writing.
               </p>
               <div className="flex flex-wrap gap-3">
-                {['ELA Expert', 'Debate Champion', 'Student Government', 'Future Biomed Engineer'].map((tag) => (
+                {['ELA Expert', 'Debate Club', 'School Newspaper', 'Chess Player'].map((tag) => (
                   <span key={tag} className="bg-gold-100 text-gold-800 text-xs font-semibold px-3 py-1 rounded-full">
                     {tag}
                   </span>
@@ -149,7 +150,7 @@ export default function About() {
           <h2 className="text-2xl font-bold text-navy-900 mb-8">Our Credentials at a Glance</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { stat: '2', label: 'Specialized HS attended' },
+              { stat: '1', label: 'Specialized HS — Bronx Science' },
               { stat: '50+', label: 'Students tutored' },
               { stat: '3 yrs', label: 'Teaching experience' },
               { stat: '4.0', label: 'Combined GPA' },

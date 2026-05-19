@@ -16,13 +16,9 @@ const SPECIALIZED_SCHOOLS = [
 ]
 
 const AVAILABILITY = [
-  'Weekday mornings (before 3pm)',
-  'Weekday afternoons (3pm – 6pm)',
-  'Weekday evenings (6pm – 9pm)',
-  'Saturday mornings',
-  'Saturday afternoons',
-  'Sunday mornings',
-  'Sunday afternoons',
+  'Weekday evening (6pm – 9pm)',
+  'Saturday',
+  'Sunday',
 ]
 
 type FormState = {
