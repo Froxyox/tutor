@@ -1,0 +1,167 @@
+import type { Metadata } from 'next'
+import Link from 'next/link'
+
+export const metadata: Metadata = {
+  title: 'About Us | EliteSHSAT Prep',
+  description: 'Meet Jordan Lee and Priya Sharma — the two NYC specialized high school students behind EliteSHSAT Prep.',
+}
+
+export default function About() {
+  return (
+    <>
+      {/* Hero */}
+      <section className="bg-navy-900 text-white py-20 px-4 text-center">
+        <div className="max-w-3xl mx-auto">
+          <span className="text-gold-400 font-bold text-sm uppercase tracking-widest">Who We Are</span>
+          <h1 className="text-4xl md:text-5xl font-black mt-3 mb-5">Meet the Founders</h1>
+          <p className="text-slate-300 text-lg">
+            Two NYC high schoolers. Two specialized schools. One shared mission: make top-tier SHSAT prep accessible to every student.
+          </p>
+        </div>
+      </section>
+
+      {/* Jordan */}
+      <section className="py-20 px-4">
+        <div className="max-w-5xl mx-auto">
+          <div className="flex flex-col lg:flex-row items-center gap-12">
+            {/* Avatar */}
+            <div className="flex-shrink-0 text-center">
+              <div className="w-48 h-48 rounded-3xl bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center text-8xl shadow-xl mx-auto mb-4">
+                👨‍🎓
+              </div>
+              <div className="inline-block bg-gold-500 text-navy-900 text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full">
+                Co-Founder
+              </div>
+            </div>
+            {/* Bio */}
+            <div className="flex-1">
+              <h2 className="text-3xl font-black text-navy-900 mb-1">Jordan Lee</h2>
+              <p className="text-gold-600 font-semibold mb-5">Junior · Stuyvesant High School &apos;26</p>
+              <p className="text-slate-600 leading-relaxed mb-4">
+                Growing up in Queens, Jordan knew he wanted to attend Stuyvesant since middle school — but the path wasn&apos;t easy.
+                He failed his first practice test by 50 points and spent the entire summer before 8th grade studying, building his own
+                question bank, and developing the math strategies he now teaches every student.
+              </p>
+              <p className="text-slate-600 leading-relaxed mb-4">
+                When he scored in the top 3% on his official exam and walked through Stuy&apos;s doors in 9th grade, he made a
+                promise to himself: he would help kids who were in his exact position. EliteSHSAT was born out of that promise.
+              </p>
+              <p className="text-slate-600 leading-relaxed mb-6">
+                At Stuy, Jordan is a member of the Math Team, participates in the Science Olympiad, and maintains a 4.0 GPA.
+                He plans to study computer science at MIT. Outside school, he&apos;s obsessed with chess and cooking.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                {['Math Whiz', 'Chess Player', 'Science Olympiad', 'MIT-Bound'].map((tag) => (
+                  <span key={tag} className="bg-navy-100 text-navy-800 text-xs font-semibold px-3 py-1 rounded-full">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Divider */}
+      <div className="bg-slate-100 h-px max-w-5xl mx-auto" />
+
+      {/* Priya */}
+      <section className="py-20 px-4">
+        <div className="max-w-5xl mx-auto">
+          <div className="flex flex-col lg:flex-row-reverse items-center gap-12">
+            {/* Avatar */}
+            <div className="flex-shrink-0 text-center">
+              <div className="w-48 h-48 rounded-3xl bg-gradient-to-br from-gold-400 to-gold-600 flex items-center justify-center text-8xl shadow-xl mx-auto mb-4">
+                👩‍🎓
+              </div>
+              <div className="inline-block bg-navy-800 text-white text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full">
+                Co-Founder
+              </div>
+            </div>
+            {/* Bio */}
+            <div className="flex-1">
+              <h2 className="text-3xl font-black text-navy-900 mb-1">Priya Sharma</h2>
+              <p className="text-gold-600 font-semibold mb-5">Junior · Bronx High School of Science &apos;26</p>
+              <p className="text-slate-600 leading-relaxed mb-4">
+                Priya grew up in the Bronx and always had a love for reading, writing, and biology. When she first heard about
+                the SHSAT, she dove headfirst into ELA prep — and quickly realized that the verbal reasoning section was
+                drastically under-served by most prep resources. So she wrote her own.
+              </p>
+              <p className="text-slate-600 leading-relaxed mb-4">
+                Her comprehensive ELA workbook — now used with all EliteSHSAT students — covers revising & editing, logical
+                reasoning, and speed-reading techniques that can meaningfully boost scores in 8–12 weeks.
+              </p>
+              <p className="text-slate-600 leading-relaxed mb-6">
+                At Bronx Science, Priya is editor-in-chief of the school newspaper, a member of the Debate Club, and serves
+                in student government. She plans to pursue biomedical engineering and is passionate about making STEM
+                education equitable across all of New York City.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                {['ELA Expert', 'Debate Champion', 'Student Government', 'Future Biomed Engineer'].map((tag) => (
+                  <span key={tag} className="bg-gold-100 text-gold-800 text-xs font-semibold px-3 py-1 rounded-full">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why we started this */}
+      <section className="bg-navy-900 text-white py-20 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8">Why We Started EliteSHSAT</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mb-12">
+            {[
+              {
+                num: '01',
+                title: 'The Price Gap',
+                desc: 'The best SHSAT tutors in NYC charge $150–$300/hour. Most families can\'t afford that. We charge a fraction of that — without cutting corners.',
+              },
+              {
+                num: '02',
+                title: 'The Relevance Gap',
+                desc: 'Adult tutors haven\'t taken the SHSAT in years. The test changes. We just took it. We know what\'s on it right now.',
+              },
+              {
+                num: '03',
+                title: 'The Comfort Gap',
+                desc: 'Kids talk to us like peers. That means they actually ask questions instead of pretending they understand something they don\'t.',
+              },
+            ].map((item) => (
+              <div key={item.num} className="bg-navy-800 rounded-2xl p-6 border border-navy-700">
+                <div className="text-gold-500 font-black text-3xl mb-3">{item.num}</div>
+                <h3 className="font-bold text-lg mb-2">{item.title}</h3>
+                <p className="text-slate-400 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+          <Link href="/apply" className="btn-primary">
+            Work With Us
+          </Link>
+        </div>
+      </section>
+
+      {/* Credentials */}
+      <section className="py-16 px-4 bg-slate-50">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-2xl font-bold text-navy-900 mb-8">Our Credentials at a Glance</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { stat: '2', label: 'Specialized HS attended' },
+              { stat: '50+', label: 'Students tutored' },
+              { stat: '3 yrs', label: 'Teaching experience' },
+              { stat: '4.0', label: 'Combined GPA' },
+            ].map((item) => (
+              <div key={item.stat} className="card text-center">
+                <div className="text-3xl font-black text-gold-500">{item.stat}</div>
+                <div className="text-slate-600 text-sm mt-1">{item.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
