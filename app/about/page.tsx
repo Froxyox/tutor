@@ -37,23 +37,26 @@ export default function About() {
             <div className="flex-1">
               <h2 className="text-3xl font-black text-navy-900 mb-1">Guanshen Chen</h2>
               <p className="text-gold-600 font-semibold">Sophomore · Bronx High School of Science &apos;28</p>
-              <p className="text-slate-500 text-sm font-medium mb-5">SHSAT Score: 650</p>
+              <p className="text-slate-500 text-sm font-medium mb-5">SHSAT Score: 650 · GPA: 4.0</p>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Guanshen grew up in the Bronx and always had a natural love for numbers. When he started prepping for the SHSAT,
-                he threw himself into the math section — building his own problem sets, finding patterns in how questions were
-                written, and developing shortcut strategies that cut solving time in half.
+                Guanshen grew up in Jamaica, Queens and earned his spot at Bronx Science with a 650 on the SHSAT.
+                He knows firsthand how much preparation matters — and how hard it can be to find quality help that
+                doesn&apos;t cost a fortune. That&apos;s exactly why he co-founded EliteSHSAT.
               </p>
               <p className="text-slate-600 leading-relaxed mb-4">
-                When he earned his spot at Bronx Science, he realized those strategies were too valuable to keep to himself.
-                He co-founded EliteSHSAT to give every motivated student access to the same techniques — without the
-                $200/hour price tag.
+                At Bronx Science, Guanshen is a student researcher at the Manne Institute, where he works on
+                experimental design and biological data analysis under faculty supervision. He&apos;s also a member of
+                DECA, where he has presented business solutions at the Long Island City Regional, and previously
+                built competition robots with VEX Robotics team Overclock Robotics — earning the Innovate Award
+                and Tournament Finalist Award at state-level competitions.
               </p>
               <p className="text-slate-600 leading-relaxed mb-6">
-                At Bronx Science, Guanshen is on the Math Team and participates in Science Olympiad.
-                Outside of school he enjoys basketball and competitive programming.
+                He also has hands-on web development experience — including building a platform for the NYC Summer
+                Youth Employment Program — which means he brought a lot more than test-prep knowledge to building
+                this site. Outside school, Guanshen is into basketball, weightlifting, and investing.
               </p>
               <div className="flex flex-wrap gap-3">
-                {['Math Expert', 'Science Olympiad', 'Math Team', 'Competitive Programmer'].map((tag) => (
+                {['DECA', 'VEX Robotics', 'Student Researcher', 'Web Developer', '4.0 GPA'].map((tag) => (
                   <span key={tag} className="bg-navy-100 text-navy-800 text-xs font-semibold px-3 py-1 rounded-full">
                     {tag}
                   </span>
