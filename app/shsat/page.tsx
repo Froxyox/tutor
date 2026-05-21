@@ -233,7 +233,7 @@ export default function Shsat() {
             Start prepping with tutors who aced it. Apply today — spots fill up fast.
           </p>
           <Link href="/apply" className="btn-navy">
-            Apply for Tutoring &rarr;
+            Apply for Free Sessions &rarr;
           </Link>
         </div>
       </section>

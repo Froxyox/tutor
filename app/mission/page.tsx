@@ -10,17 +10,17 @@ const values = [
   {
     icon: '⚖️',
     title: 'Equity',
-    desc: 'High-quality SHSAT prep should not be gatekept by income. We price our sessions fairly and offer need-based discounts — because talent is everywhere, and opportunity should be too.',
+    desc: 'High-quality SHSAT sessions should not be gatekept by income. Our free sessions ensure talent is never held back by cost — because opportunity should be everywhere.',
   },
   {
     icon: '🔬',
     title: 'Excellence',
-    desc: 'We hold our students and ourselves to a high standard. Every session has a clear goal, every practice test gets analyzed, and every student leaves knowing exactly what to improve.',
+    desc: 'We hold our students and ourselves to a high standard. Every free session has a clear goal, every practice test gets analyzed, and every student leaves knowing exactly what to improve.',
   },
   {
     icon: '🤝',
     title: 'Authenticity',
-    desc: 'We don\'t pretend to be something we\'re not. We\'re high schoolers who cracked the SHSAT — and that real, lived experience is exactly what makes our tutoring uniquely effective.',
+    desc: 'We don\'t pretend to be something we\'re not. We\'re high schoolers who cracked the SHSAT — and that real, lived experience is exactly what makes our free sessions uniquely effective.',
   },
   {
     icon: '🌱',
@@ -30,7 +30,7 @@ const values = [
   {
     icon: '🗽',
     title: 'Community',
-    desc: 'We\'re New Yorkers tutoring New Yorkers. We know the city, the schools, and the culture. Our students are our community — not just our clients.',
+    desc: 'We\'re New Yorkers offering free sessions to New Yorkers. We know the city, the schools, and the culture. Our students are our community — not just our clients.',
   },
   {
     icon: '📖',
@@ -65,7 +65,7 @@ export default function Mission() {
             </blockquote>
             <p className="text-slate-300 text-base">
               We believe a great education shouldn&apos;t depend on how much your family can spend on test prep.
-              By offering personalized, peer-led tutoring at honest prices, we&apos;re leveling the playing field —
+              By offering personalized, peer-led free sessions, we&apos;re leveling the playing field —
               one student at a time.
             </p>
             <div className="mt-8 flex items-center justify-center gap-4">
@@ -139,7 +139,7 @@ export default function Mission() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <h2 className="section-title">Our Core Values</h2>
-            <p className="section-subtitle">These are the principles that guide every session we run.</p>
+            <p className="section-subtitle">These are the principles that guide every free session we run.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {values.map((v) => (
@@ -162,7 +162,7 @@ export default function Mission() {
             Let&apos;s make that happen for yours.
           </p>
           <Link href="/apply" className="btn-navy">
-            Apply for Tutoring &rarr;
+            Apply for Free Sessions &rarr;
           </Link>
         </div>
       </section>

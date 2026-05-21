@@ -30,27 +30,27 @@ const faqs = [
     ],
   },
   {
-    category: 'About Our Tutoring',
+    category: 'About Our Free Sessions',
     items: [
       {
-        q: 'How long does tutoring typically last?',
+        q: 'How long do free sessions typically last?',
         a: 'Most students work with us for 8–16 weeks before the exam. We recommend starting in July or August for an October test date to allow enough time for full coverage and multiple practice tests.',
       },
       {
-        q: 'Are sessions in-person or online?',
+        q: 'Are free sessions in-person or online?',
         a: 'Both! We offer virtual sessions via Zoom and in-person sessions in the Bronx, Manhattan, and Queens. Preference and availability are discussed during your free consultation call.',
       },
       {
-        q: 'How are sessions structured?',
-        a: 'Each session is 60 or 90 minutes long. We typically spend the first 15–20 minutes reviewing the previous week\'s homework, then dive into new material, and close with targeted practice problems. Every student has a unique roadmap we follow.',
+        q: 'How are free sessions structured?',
+        a: 'Each free session is 60 or 90 minutes long. We typically spend the first 15–20 minutes reviewing the previous week\'s homework, then dive into new material, and close with targeted practice problems. Every student has a unique roadmap we follow.',
       },
       {
-        q: 'What if my child misses a session?',
-        a: 'Life happens. We ask for 24 hours notice for cancellations where possible. Missed sessions can typically be rescheduled within the same week at no extra cost.',
+        q: 'What if my child misses a free session?',
+        a: 'Life happens. We ask for 24 hours notice for cancellations where possible. Missed free sessions can typically be rescheduled within the same week.',
       },
       {
-        q: 'Do you offer group sessions?',
-        a: 'Yes — we run monthly group sessions (3–5 students) on specific topics at $25/student. These are great supplements to one-on-one sessions but don\'t replace them for personalized prep.',
+        q: 'Do you offer group free sessions?',
+        a: 'Yes — we run monthly group free sessions (3–5 students) on specific topics. These are great supplements to one-on-one sessions but don\'t replace them for personalized prep.',
       },
       {
         q: 'How quickly will I see improvement?',

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'About Us | EliteSHSAT Prep',
-  description: 'Meet Jordan Lee and Priya Sharma — the two NYC specialized high school students behind EliteSHSAT Prep.',
+  description: 'Meet Guanshen Chen and Jonathan Zhang — the two Bronx Science students offering free SHSAT sessions through EliteSHSAT Prep.',
 }
 
 export default function About() {
@@ -15,7 +15,7 @@ export default function About() {
           <span className="text-gold-400 font-bold text-sm uppercase tracking-widest">Who We Are</span>
           <h1 className="text-4xl md:text-5xl font-black mt-3 mb-5">Meet the Founders</h1>
           <p className="text-slate-300 text-lg">
-            Two NYC high schoolers. Two specialized schools. One shared mission: make top-tier SHSAT prep accessible to every student.
+            Two NYC high schoolers. One specialized school. One shared mission: make top-tier free SHSAT sessions accessible to every student.
           </p>
         </div>
       </section>
@@ -120,7 +120,7 @@ export default function About() {
               {
                 num: '01',
                 title: 'The Price Gap',
-                desc: 'The best SHSAT tutors in NYC charge $150–$300/hour. Most families can\'t afford that. We charge a fraction of that — without cutting corners.',
+                desc: 'The best SHSAT tutors in NYC charge $150–$300/hour. Most families can\'t afford that. Our free sessions remove that barrier entirely.',
               },
               {
                 num: '02',
@@ -141,7 +141,7 @@ export default function About() {
             ))}
           </div>
           <Link href="/apply" className="btn-primary">
-            Work With Us
+            Apply for Free Sessions
           </Link>
         </div>
       </section>

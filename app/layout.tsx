@@ -4,9 +4,9 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Elite SHSAT Prep | NYC Specialized High School Tutoring',
+  title: 'Elite SHSAT Prep | Free NYC Specialized High School Sessions',
   description:
-    'Expert SHSAT tutoring by Bronx Science students. Personalized prep for all 9 NYC specialized high schools. Apply today.',
+    'Free SHSAT sessions by Bronx Science students. Personalized prep for all 9 NYC specialized high schools. Apply today.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

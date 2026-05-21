@@ -37,7 +37,7 @@ const whyUs = [
   {
     icon: '💰',
     title: 'Completely Free',
-    desc: 'We believe cost should never be a barrier. Our tutoring is 100% free — no fees, no hidden charges, ever.',
+    desc: 'We believe cost should never be a barrier. Our sessions are 100% free — no fees, no hidden charges, ever.',
   },
   {
     icon: '📅',
@@ -61,12 +61,12 @@ export default function Home() {
             Starts Here
           </h1>
           <p className="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Expert SHSAT tutoring from students who&apos;ve been in your shoes.
+            Free SHSAT sessions from students who&apos;ve been in your shoes.
             We&apos;re two Bronx Science sophomores who aced the SHSAT, and we&apos;re here to help you do the same.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/apply" className="btn-primary text-base">
-              Apply for Tutoring
+              Apply for Free Sessions
             </Link>
             <Link href="/shsat" className="btn-secondary text-base">
               Learn About the SHSAT
@@ -170,7 +170,7 @@ export default function Home() {
             Spots are limited. Apply today and we&apos;ll reach out within 48 hours to schedule your free consultation call.
           </p>
           <Link href="/apply" className="btn-navy text-lg">
-            Apply for Tutoring &rarr;
+            Apply for Free Sessions &rarr;
           </Link>
         </div>
       </section>

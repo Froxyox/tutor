@@ -11,7 +11,7 @@ export default function Footer() {
               Elite<span className="text-white">SHSAT</span>
             </span>
             <p className="mt-3 text-sm leading-relaxed max-w-sm">
-              Personalized SHSAT tutoring by current specialized high school students who know exactly what it takes to get in.
+              Free, personalized SHSAT sessions by current specialized high school students who know exactly what it takes to get in.
             </p>
             <div className="mt-4 flex gap-3">
               <a href="mailto:eliteshsatprep@gmail.com" className="text-gold-500 hover:text-gold-400 text-sm font-medium transition-colors">

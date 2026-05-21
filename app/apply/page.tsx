@@ -129,7 +129,7 @@ export default function Apply() {
       <section className="bg-navy-900 text-white py-16 px-4 text-center">
         <div className="max-w-3xl mx-auto">
           <span className="text-gold-400 font-bold text-sm uppercase tracking-widest">Get Started</span>
-          <h1 className="text-4xl md:text-5xl font-black mt-3 mb-4">Apply for Tutoring</h1>
+          <h1 className="text-4xl md:text-5xl font-black mt-3 mb-4">Apply for Free Sessions</h1>
           <p className="text-slate-300">
             Fill out the form below — it takes about 5 minutes. We&apos;ll reach out within 48 hours.
           </p>
