@@ -9,8 +9,7 @@ const links = [
   { href: '/about', label: 'About Us' },
   { href: '/mission', label: 'Mission' },
   { href: '/shsat', label: 'The SHSAT' },
-  { href: '/services', label: 'Services' },
-  { href: '/testimonials', label: 'Testimonials' },
+
   { href: '/faq', label: 'FAQ' },
 ]
 

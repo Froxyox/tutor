@@ -29,8 +29,7 @@ export default function Footer() {
                 ['/about', 'About Us'],
                 ['/mission', 'Our Mission'],
                 ['/shsat', 'The SHSAT'],
-                ['/services', 'Services'],
-                ['/testimonials', 'Testimonials'],
+
                 ['/faq', 'FAQ'],
               ].map(([href, label]) => (
                 <li key={href}>

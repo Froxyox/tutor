@@ -72,11 +72,13 @@ export default function Mission() {
               <div className="text-center">
                 <div className="font-bold text-gold-400">Guanshen Chen</div>
                 <div className="text-xs text-slate-400">Co-Founder, Bronx Science &apos;28</div>
+                <div className="text-xs text-slate-500">SHSAT: 650</div>
               </div>
               <div className="text-slate-600 text-xl">&amp;</div>
               <div className="text-center">
                 <div className="font-bold text-gold-400">Jonathan Zhang</div>
                 <div className="text-xs text-slate-400">Co-Founder, Bronx Science &apos;28</div>
+                <div className="text-xs text-slate-500">SHSAT: 620</div>
               </div>
             </div>
           </div>
@@ -125,8 +127,8 @@ export default function Mission() {
           </div>
           <div className="mt-10 text-center">
             <p className="text-slate-700 font-medium text-lg">
-              We charge <span className="font-bold text-navy-900">significantly less</span> than the market rate —
-              and we&apos;re just as good. <span className="text-gold-600 font-bold">That&apos;s the point.</span>
+              We provide tutoring <span className="font-bold text-navy-900">completely free of charge</span> —
+              because opportunity shouldn&apos;t have a price tag. <span className="text-gold-600 font-bold">That&apos;s the point.</span>
             </p>
           </div>
         </div>

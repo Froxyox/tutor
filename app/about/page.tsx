@@ -36,7 +36,8 @@ export default function About() {
             {/* Bio */}
             <div className="flex-1">
               <h2 className="text-3xl font-black text-navy-900 mb-1">Guanshen Chen</h2>
-              <p className="text-gold-600 font-semibold mb-5">Sophomore · Bronx High School of Science &apos;28</p>
+              <p className="text-gold-600 font-semibold">Sophomore · Bronx High School of Science &apos;28</p>
+              <p className="text-slate-500 text-sm font-medium mb-5">SHSAT Score: 650</p>
               <p className="text-slate-600 leading-relaxed mb-4">
                 Guanshen grew up in the Bronx and always had a natural love for numbers. When he started prepping for the SHSAT,
                 he threw himself into the math section — building his own problem sets, finding patterns in how questions were
@@ -82,7 +83,8 @@ export default function About() {
             {/* Bio */}
             <div className="flex-1">
               <h2 className="text-3xl font-black text-navy-900 mb-1">Jonathan Zhang</h2>
-              <p className="text-gold-600 font-semibold mb-5">Sophomore · Bronx High School of Science &apos;28</p>
+              <p className="text-gold-600 font-semibold">Sophomore · Bronx High School of Science &apos;28</p>
+              <p className="text-slate-500 text-sm font-medium mb-5">SHSAT Score: 620</p>
               <p className="text-slate-600 leading-relaxed mb-4">
                 Jonathan grew up reading everything he could get his hands on. When he started prepping for the SHSAT,
                 he quickly noticed that most students underestimated the ELA section — and that the right reading strategies
@@ -144,25 +146,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Credentials */}
-      <section className="py-16 px-4 bg-slate-50">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl font-bold text-navy-900 mb-8">Our Credentials at a Glance</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[
-              { stat: '1', label: 'Specialized HS — Bronx Science' },
-              { stat: '50+', label: 'Students tutored' },
-              { stat: '3 yrs', label: 'Teaching experience' },
-              { stat: '4.0', label: 'Combined GPA' },
-            ].map((item) => (
-              <div key={item.stat} className="card text-center">
-                <div className="text-3xl font-black text-gold-500">{item.stat}</div>
-                <div className="text-slate-600 text-sm mt-1">{item.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </>
   )
 }

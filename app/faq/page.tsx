@@ -59,18 +59,14 @@ const faqs = [
     ],
   },
   {
-    category: 'Pricing & Logistics',
+    category: 'Logistics',
     items: [
       {
-        q: 'Do you offer financial assistance?',
-        a: 'Yes. We believe cost should never be a barrier. If your family needs a reduced rate, reach out directly at eliteshsatprep@gmail.com and we\'ll work something out, confidentially and without judgment.',
+        q: 'Is tutoring really free?',
+        a: 'Yes, completely free. We started this program because we believe every student deserves quality SHSAT prep regardless of their family\'s financial situation. There are no fees, no hidden charges, ever.',
       },
       {
-        q: 'How do I pay?',
-        a: 'We accept payment via Venmo, Zelle, or cash. Payment is due at the start of each session. We don\'t require prepayment of multiple sessions.',
-      },
-      {
-        q: 'Is there a contract or minimum commitment?',
+        q: 'Is there a minimum commitment?',
         a: 'No contracts, ever. You can stop at any time. That said, we recommend at least 8 weeks of consistent sessions to see substantial score improvement.',
       },
       {
@@ -79,7 +75,7 @@ const faqs = [
       },
       {
         q: 'Do you guarantee admission to a specialized high school?',
-        a: 'We guarantee our effort and commitment 100%. We cannot guarantee admission — results depend on the student\'s work ethic, starting point, and how competitive that year\'s pool is. What we can say: 94% of students who complete our full program earn a specialized high school offer.',
+        a: 'We guarantee our full effort and commitment. We cannot guarantee admission — results depend on the student\'s work ethic, starting point, and how competitive that year\'s pool is. What we can promise is that we will give every student our best.',
       },
     ],
   },

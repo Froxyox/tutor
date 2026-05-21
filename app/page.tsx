@@ -1,11 +1,5 @@
 import Link from 'next/link'
 
-const stats = [
-  { value: '94%', label: 'of our students get into a specialized high school' },
-  { value: '50+', label: 'students helped since 2023' },
-  { value: '120+', label: 'points average score improvement' },
-  { value: '9', label: 'specialized high schools we prepare for' },
-]
 
 const schools = [
   'Stuyvesant High School',
@@ -42,8 +36,8 @@ const whyUs = [
   },
   {
     icon: '💰',
-    title: 'Affordable Rates',
-    desc: 'Quality tutoring shouldn\'t be a luxury. Our rates are significantly below market price without sacrificing results.',
+    title: 'Completely Free',
+    desc: 'We believe cost should never be a barrier. Our tutoring is 100% free — no fees, no hidden charges, ever.',
   },
   {
     icon: '📅',
@@ -78,18 +72,6 @@ export default function Home() {
               Learn About the SHSAT
             </Link>
           </div>
-        </div>
-      </section>
-
-      {/* Stats */}
-      <section className="bg-gold-500 py-12 px-4">
-        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          {stats.map((s) => (
-            <div key={s.value}>
-              <div className="text-4xl font-black text-navy-900">{s.value}</div>
-              <div className="text-sm font-medium text-navy-800 mt-1 leading-snug">{s.label}</div>
-            </div>
-          ))}
         </div>
       </section>
 
