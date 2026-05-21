@@ -85,50 +85,50 @@ export default function Mission() {
         </div>
       </section>
 
-      {/* The Problem We're Solving */}
+      {/* What We Bring to the Table */}
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-title">The Problem We&apos;re Solving</h2>
+            <h2 className="section-title">What We Bring to the Table</h2>
             <p className="section-subtitle">
-              The SHSAT is supposed to be a meritocracy. In practice, access to preparation is deeply unequal.
+              Here&apos;s exactly what sets our free sessions apart from anything else out there.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                stat: '$150–$300',
-                label: 'per hour',
-                desc: 'The going rate for top-tier SHSAT tutors in NYC — an impossible price for most families.',
-                color: 'border-red-300 bg-red-50',
-                textColor: 'text-red-700',
+                icon: '🆓',
+                title: 'Always Free',
+                desc: 'Zero cost, zero barriers. While other tutors charge $150–$300/hr, our sessions are completely free so every student gets a fair shot.',
+                color: 'border-green-400 bg-green-50',
+                textColor: 'text-green-700',
               },
               {
-                stat: '~30%',
-                label: 'of test-takers',
-                desc: 'The portion of students who can afford serious SHSAT prep, yet they consistently take a disproportionate share of seats.',
-                color: 'border-orange-300 bg-orange-50',
-                textColor: 'text-orange-700',
+                icon: '🎯',
+                title: 'We Just Took the Test',
+                desc: 'We scored 650 and 620 on the real SHSAT — recently. We know exactly what\'s on it, how it\'s written, and what trips students up.',
+                color: 'border-gold-500 bg-amber-50',
+                textColor: 'text-amber-700',
               },
               {
-                stat: '9 schools',
-                label: 'for all of NYC',
-                desc: 'Nine specialized schools serve a city of 8 million people — making prep not just helpful but essential to compete.',
-                color: 'border-navy-300 bg-blue-50',
+                icon: '🏙️',
+                title: 'Built for NYC Students',
+                desc: 'We\'re Bronx kids teaching Bronx, Manhattan, and Queens students. We know the schools, the culture, and what it actually takes to get in.',
+                color: 'border-navy-600 bg-blue-50',
                 textColor: 'text-navy-800',
               },
             ].map((item) => (
-              <div key={item.stat} className={`border-2 rounded-2xl p-8 ${item.color}`}>
-                <div className={`text-4xl font-black ${item.textColor} mb-1`}>{item.stat}</div>
-                <div className={`text-sm font-bold ${item.textColor} mb-3`}>{item.label}</div>
+              <div key={item.title} className={`border-2 rounded-2xl p-8 ${item.color}`}>
+                <div className="text-4xl mb-3">{item.icon}</div>
+                <div className={`text-lg font-black ${item.textColor} mb-3`}>{item.title}</div>
                 <p className="text-slate-600 text-sm leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
           <div className="mt-10 text-center">
             <p className="text-slate-700 font-medium text-lg">
-              We provide tutoring <span className="font-bold text-navy-900">completely free of charge</span> —
-              because opportunity shouldn&apos;t have a price tag. <span className="text-gold-600 font-bold">That&apos;s the point.</span>
+              Quality SHSAT prep, <span className="font-bold text-navy-900">completely free</span> —
+              because every student deserves a real shot. <span className="text-gold-600 font-bold">That&apos;s the point.</span>
             </p>
           </div>
         </div>
