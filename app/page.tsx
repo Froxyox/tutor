@@ -1,4 +1,21 @@
+'use client'
+
 import Link from 'next/link'
+import Image from 'next/image'
+import { useState } from 'react'
+
+function TeaserPhoto({ src, gradient }: { src: string; gradient: string }) {
+  const [err, setErr] = useState(false)
+  return err ? (
+    <div className={`w-32 h-32 rounded-2xl bg-gradient-to-br ${gradient} flex items-center justify-center text-5xl shadow-lg mb-3`}>
+      👨‍🎓
+    </div>
+  ) : (
+    <div className="w-32 h-32 rounded-2xl overflow-hidden shadow-lg mb-3">
+      <Image src={src} alt="founder" width={128} height={128} className="w-full h-full object-cover" onError={() => setErr(true)} />
+    </div>
+  )
+}
 
 
 const schools = [
@@ -143,16 +160,12 @@ export default function Home() {
           </div>
           <div className="flex gap-6 flex-shrink-0">
             <div className="text-center">
-              <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center text-5xl shadow-lg mb-3">
-                👨‍🎓
-              </div>
+              <TeaserPhoto src="/images/guanshen.jpg" gradient="from-navy-700 to-navy-900" />
               <div className="font-bold text-navy-900">Guanshen Chen</div>
               <div className="text-xs text-slate-500 font-medium">Bronx Science &apos;28</div>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center text-5xl shadow-lg mb-3">
-                👨‍🎓
-              </div>
+              <TeaserPhoto src="/images/jonathan.jpg" gradient="from-gold-500 to-gold-600" />
               <div className="font-bold text-navy-900">Jonathan Zhang</div>
               <div className="text-xs text-slate-500 font-medium">Bronx Science &apos;28</div>
             </div>

@@ -1,9 +1,27 @@
-import type { Metadata } from 'next'
-import Link from 'next/link'
+'use client'
 
-export const metadata: Metadata = {
-  title: 'About Us | EliteSHSAT Prep',
-  description: 'Meet Guanshen Chen and Jonathan Zhang — the two Bronx Science students offering free SHSAT sessions through EliteSHSAT Prep.',
+import Link from 'next/link'
+import Image from 'next/image'
+import { useState } from 'react'
+
+function FounderPhoto({ src, name, gradient }: { src: string; name: string; gradient: string }) {
+  const [err, setErr] = useState(false)
+  return err ? (
+    <div className={`w-48 h-48 rounded-3xl bg-gradient-to-br ${gradient} flex items-center justify-center text-8xl shadow-xl mx-auto`}>
+      👨‍🎓
+    </div>
+  ) : (
+    <div className="w-48 h-48 rounded-3xl overflow-hidden shadow-xl mx-auto">
+      <Image
+        src={src}
+        alt={name}
+        width={192}
+        height={192}
+        className="w-full h-full object-cover"
+        onError={() => setErr(true)}
+      />
+    </div>
+  )
 }
 
 export default function About() {
@@ -26,10 +44,8 @@ export default function About() {
           <div className="flex flex-col lg:flex-row items-center gap-12">
             {/* Avatar */}
             <div className="flex-shrink-0 text-center">
-              <div className="w-48 h-48 rounded-3xl bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center text-8xl shadow-xl mx-auto mb-4">
-                👨‍🎓
-              </div>
-              <div className="inline-block bg-gold-500 text-navy-900 text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full">
+              <FounderPhoto src="/images/guanshen.jpg" name="Guanshen Chen" gradient="from-navy-700 to-navy-900" />
+              <div className="inline-block bg-gold-500 text-navy-900 text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full mt-4">
                 Co-Founder
               </div>
             </div>
@@ -76,10 +92,8 @@ export default function About() {
           <div className="flex flex-col lg:flex-row-reverse items-center gap-12">
             {/* Avatar */}
             <div className="flex-shrink-0 text-center">
-              <div className="w-48 h-48 rounded-3xl bg-gradient-to-br from-gold-400 to-gold-600 flex items-center justify-center text-8xl shadow-xl mx-auto mb-4">
-                👨‍🎓
-              </div>
-              <div className="inline-block bg-navy-800 text-white text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full">
+              <FounderPhoto src="/images/jonathan.jpg" name="Jonathan Zhang" gradient="from-gold-400 to-gold-600" />
+              <div className="inline-block bg-navy-800 text-white text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full mt-4">
                 Co-Founder
               </div>
             </div>
@@ -87,23 +101,24 @@ export default function About() {
             <div className="flex-1">
               <h2 className="text-3xl font-black text-navy-900 mb-1">Jonathan Zhang</h2>
               <p className="text-gold-600 font-semibold">Sophomore · Bronx High School of Science &apos;28</p>
-              <p className="text-slate-500 text-sm font-medium mb-5">SHSAT Score: 620</p>
+              <p className="text-slate-500 text-sm font-medium mb-5">SHSAT Score: 611</p>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Jonathan grew up reading everything he could get his hands on. When he started prepping for the SHSAT,
-                he quickly noticed that most students underestimated the ELA section — and that the right reading strategies
-                could unlock massive score gains that other prep programs completely ignored.
+                Jonathan is a student at Bronx High School of Science who scored a 611 on the SHSAT.
+                Growing up, he developed a deep love for reading that carried into middle school, where
+                he also discovered a passion for math — a combination that made the SHSAT a natural challenge
+                to conquer.
               </p>
               <p className="text-slate-600 leading-relaxed mb-4">
-                He built his own ELA workbook from scratch — covering revising &amp; editing, passage annotation, and logical
-                reasoning — and saw his own ELA score jump dramatically in the final weeks before the test.
-                That workbook is now a core part of every EliteSHSAT student&apos;s prep.
+                In high school, Jonathan stays actively involved through DECA and Model UN, which have
+                sharpened his skills in business, public speaking, and global thinking.
               </p>
               <p className="text-slate-600 leading-relaxed mb-6">
-                At Bronx Science, Jonathan writes for the school newspaper and is a member of the Debate Club.
-                Outside school he enjoys chess and creative writing.
+                Having gone through the SHSAT process himself, he knows firsthand how challenging and stressful
+                it can be — that&apos;s exactly why he&apos;s here with EliteSHSAT Prep, to help students
+                navigate it with confidence and come out on top.
               </p>
               <div className="flex flex-wrap gap-3">
-                {['ELA Expert', 'Debate Club', 'School Newspaper', 'Chess Player'].map((tag) => (
+                {['DECA', 'Model UN', 'Math & ELA', 'Public Speaking'].map((tag) => (
                   <span key={tag} className="bg-gold-100 text-gold-800 text-xs font-semibold px-3 py-1 rounded-full">
                     {tag}
                   </span>

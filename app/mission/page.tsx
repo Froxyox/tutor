@@ -78,7 +78,7 @@ export default function Mission() {
               <div className="text-center">
                 <div className="font-bold text-gold-400">Jonathan Zhang</div>
                 <div className="text-xs text-slate-400">Co-Founder, Bronx Science &apos;28</div>
-                <div className="text-xs text-slate-500">SHSAT: 620</div>
+                <div className="text-xs text-slate-500">SHSAT: 611</div>
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default function Mission() {
               {
                 icon: '🎯',
                 title: 'We Just Took the Test',
-                desc: 'We scored 650 and 620 on the real SHSAT — recently. We know exactly what\'s on it, how it\'s written, and what trips students up.',
+                desc: 'We scored 650 and 611 on the real SHSAT — recently. We know exactly what\'s on it, how it\'s written, and what trips students up.',
                 color: 'border-gold-500 bg-amber-50',
                 textColor: 'text-amber-700',
               },
